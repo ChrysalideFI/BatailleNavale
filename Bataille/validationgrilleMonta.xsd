@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="batailleNavale">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="joueur1" type="joueurType"/>
+        <xs:element name="joueur2" type="joueurType"/>
+        <xs:element name="etatPartie" type="etatPartie"/>
+        <xs:element name="joueurActif" type="xs:string"/> <!-- Le joueur dont c'est le tour -->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Joueur -->
+  <xs:complexType name="joueurType">
+    <xs:sequence>
+      <xs:element name="grille" type="grilleType"/>
+      <xs:element name="flotte" type="flotteType"/>
+      <xs:element name="tir" type="tirType"/>
+    </xs:sequence>
+  </xs:complexType>
+   
+   <!-- Grille -->
+  <xs:complexType name="grilleType">
+    <xs:sequence>
+      <xs:element name="ligneIndicateur" type="ligneIndicateurType" maxOccurs="1"/> <!-- Ligne qui indique les numéros de colonne-->
+      <xs:element name="colonneIndicateur" type="colonneIndicateurType" maxOccurs="1"/> <!--Colonne qui indique les lettres correspondant aux différentes lignes-->
+      <xs:element name="ligne" type="ligneType" maxOccurs="10"/> <!-- Lignes de jeu -->
+      <xs:element name="colonne" type="colonneType" maxOccurs="10"/> <!--Colonnes de jeu -->
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Ligne Indicateur -->
+  <!-- Ligne qui indique les numéros de colonne-->
+  <xs:simpleType name="ligneIndicateurType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[1-9]|10"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Colonne Indicateur -->
+  <!--Colonne qui indique les lettres correspondant aux différentes lignes-->
+  <xs:simpleType name="colonneIndicateurType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-J]"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Lignes -->
+  <xs:complexType name="ligneType">
+    <xs:sequence>
+      <xs:element name="case" type="caseType" maxOccurs="10"/> 
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Colonnes -->
+  <xs:complexType name="colonneType">
+    <xs:sequence>
+      <xs:element name="case" type="caseType" maxOccurs="10"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <!-- Case -->
+  <xs:complexType name="caseType">
+    <xs:attribute name="coordonnees" type="xs:string" use="required"/>
+    <xs:attribute name="etat" type="etatCase" use="required"/>
+  </xs:complexType>
+  
+  <!-- Etat cases -->
+  <xs:simpleType name="etatCase">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="vide"/>
+      <xs:enumeration value="touche"/>
+      <xs:enumeration value="eau"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+   <!-- Flotte du joueur -->
+  <xs:complexType name="flotteType">
+    <xs:sequence>
+      <xs:element name="position" type="positionType" maxOccurs="unbounded"/>
+      <xs:element name="porteAvions" type="porteAvions" maxOccurs="1"/>
+      <xs:element name="croiseur" type="croiseur" maxOccurs="2"/>
+      <xs:element name="contreTorpilleur" type="contreTorpilleur" maxOccurs="3"/>
+      <xs:element name="sousMarin" type="sousMarin" maxOccurs="4"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Types de bateaux -->
+  <xs:complexType name="porteAvions">
+    <xs:attribute name="taille" type="xs:integer" fixed="5"/>
+    <xs:attribute name="etat" type="etatBateau"/>
+  </xs:complexType>
+
+  <xs:complexType name="croiseur">
+    <xs:attribute name="taille" type="xs:integer" fixed="4"/>
+    <xs:attribute name="etat" type="etatBateau"/>
+  </xs:complexType>
+
+  <xs:complexType name="contreTorpilleur">
+    <xs:attribute name="taille" type="xs:integer" fixed="3"/>
+    <xs:attribute name="etat" type="etatBateau"/>
+  </xs:complexType>
+
+  <xs:complexType name="sousMarin">
+    <xs:attribute name="taille" type="xs:integer" fixed="2"/>
+    <xs:attribute name="etat" type="etatBateau"/>
+  </xs:complexType>
+
+  <!-- Etat des bateaux -->
+  <xs:simpleType name="etatBateau">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="intact"/>
+      <xs:enumeration value="touche"/>
+      <xs:enumeration value="coule"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tirs -->
+  <xs:complexType name="tirsType">
+    <xs:sequence>
+      <xs:element name="tir" type="tirType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="tirType">
+    <xs:attribute name="coordonnees" type="xs:string" use="required"/>
+    <xs:attribute name="etat" type="etatTir" use="required"/>
+  </xs:complexType>
+
+  <!-- Position -->
+  <xs:complexType name="positionType">
+    <xs:attribute name="coordonnees" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- Etat des tirs -->
+  <xs:simpleType name="etatTir">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="touche"/>
+      <xs:enumeration value="manque"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Etat du jeu -->
+  <xs:simpleType name="etatPartie">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="avantPartie"/>
+      <xs:enumeration value="pendantPartie"/>
+      <xs:enumeration value="finPartie"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

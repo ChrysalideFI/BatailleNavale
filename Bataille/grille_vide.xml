@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batailleNavale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="validationgrille.xsd">
+  <!-- Grille du joueur -->
+  <grille>
+    <ligne>
+      <case coord="A1" etat="vide"/>
+      <case coord="A2" etat="vide"/>
+      <case coord="A3" etat="vide"/>
+      <case coord="A4" etat="vide"/>
+      <case coord="A5" etat="vide"/>
+      <case coord="A6" etat="vide"/>
+      <case coord="A7" etat="vide"/>
+      <case coord="A8" etat="vide"/>
+      <case coord="A9" etat="vide"/>
+      <case coord="A10" etat="vide"/>
+    </ligne>
+    <ligne>
+      <case coord="B1" etat="vide"/>
+      <case coord="B2" etat="vide"/>
+      <case coord="B3" etat="vide"/>
+      <case coord="B4" etat="vide"/>
+      <case coord="B5" etat="vide"/>
+      <case coord="B6" etat="vide"/>
+      <case coord="B7" etat="vide"/>
+      <case coord="B8" etat="vide"/>
+      <case coord="B9" etat="vide"/>
+      <case coord="B10" etat="vide"/>
+    </ligne>
+      <ligne>
+      <case coord="C1" etat="vide"/>
+      <case coord="C2" etat="vide"/>
+      <case coord="C3" etat="vide"/>
+      <case coord="C4" etat="vide"/>
+      <case coord="C5" etat="vide"/>
+      <case coord="C6" etat="vide"/>
+      <case coord="C7" etat="vide"/>
+      <case coord="C8" etat="vide"/>
+      <case coord="C9" etat="vide"/>
+      <case coord="C10" etat="vide"/>
+    </ligne>
+      <ligne>
+      <case coord="D1" etat="vide"/>
+      <case coord="D2" etat="vide"/>
+      <case coord="D3" etat="vide"/>
+      <case coord="D4" etat="vide"/>
+      <case coord="D5" etat="vide"/>
+      <case coord="D6" etat="vide"/>
+      <case coord="D7" etat="vide"/>
+      <case coord="D8" etat="vide"/>
+      <case coord="D9" etat="vide"/>
+      <case coord="D10" etat="vide"/>
+    </ligne>
+      <ligne>
+      <case coord="E1" etat="vide"/>
+      <case coord="E2" etat="vide"/>
+      <case coord="E3" etat="vide"/>
+      <case coord="E4" etat="vide"/>
+      <case coord="E5" etat="vide"/>
+      <case coord="E6" etat="vide"/>
+      <case coord="E7" etat="vide"/>
+      <case coord="E8" etat="vide"/>
+      <case coord="E9" etat="vide"/>
+      <case coord="E10" etat="vide"/>
+    </ligne>
+      <ligne>
+      <case coord="F1" etat="vide"/>
+      <case coord="F2" etat="vide"/>
+      <case coord="F3" etat="vide"/>
+      <case coord="F4" etat="vide"/>
+      <case coord="F5" etat="vide"/>
+      <case coord="F6" etat="vide"/>
+      <case coord="F7" etat="vide"/>
+      <case coord="F8" etat="vide"/>
+      <case coord="F9" etat="vide"/>
+      <case coord="F10" etat="vide"/>
+    </ligne>
+      <ligne>
+      <case coord="G1" etat="vide"/>
+      <case coord="G2" etat="vide"/>
+      <case coord="G3" etat="vide"/>
+      <case coord="G4" etat="vide"/>
+      <case coord="G5" etat="vide"/>
+      <case coord="G6" etat="vide"/>
+      <case coord="G7" etat="vide"/>
+      <case coord="G8" etat="vide"/>
+      <case coord="G9" etat="vide"/>
+      <case coord="G10" etat="vide"/>
+    </ligne>
+          <ligne>
+      <case coord="H1" etat="vide"/>
+      <case coord="H2" etat="vide"/>
+      <case coord="H3" etat="vide"/>
+      <case coord="H4" etat="vide"/>
+      <case coord="H5" etat="vide"/>
+      <case coord="H6" etat="vide"/>
+      <case coord="H7" etat="vide"/>
+      <case coord="H8" etat="vide"/>
+      <case coord="H9" etat="vide"/>
+      <case coord="H10" etat="vide"/>
+    </ligne>      <ligne>
+      <case coord="I1" etat="vide"/>
+      <case coord="I2" etat="vide"/>
+      <case coord="I3" etat="vide"/>
+      <case coord="I4" etat="vide"/>
+      <case coord="I5" etat="vide"/>
+      <case coord="I6" etat="vide"/>
+      <case coord="I7" etat="vide"/>
+      <case coord="I8" etat="vide"/>
+      <case coord="I9" etat="vide"/>
+      <case coord="I10" etat="vide"/>
+    </ligne>      <ligne>
+      <case coord="J1" etat="vide"/>
+      <case coord="J2" etat="vide"/>
+      <case coord="J3" etat="vide"/>
+      <case coord="J4" etat="vide"/>
+      <case coord="J5" etat="vide"/>
+      <case coord="J6" etat="vide"/>
+      <case coord="J7" etat="vide"/>
+      <case coord="J8" etat="vide"/>
+      <case coord="J9" etat="vide"/>
+      <case coord="J10" etat="vide"/>
+    </ligne>
+  </grille>
+</batailleNavale>

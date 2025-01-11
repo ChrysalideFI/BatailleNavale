@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<!--peut-être ajouter un truc sur le fait que les bateaux se supperoposent pas-->
+  <xs:element name="batailleNavale">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="grille" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ligne" maxOccurs="10">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="case" maxOccurs="10">
+                      <xs:complexType>
+                        <xs:attribute name="coord" type="xs:string" use="required"/>
+                        <xs:attribute name="etat" type="etatCase" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <!-- Flotte du joueur -->
+        <xs:element name="flotte" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="bateau" maxOccurs="10">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="position" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="coord" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="type" type="typeBateau" use="required"/>
+                  <xs:attribute name="etat" type="etatBateau" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- Etat cases -->
+  <xs:simpleType name="etatCase">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="vide"/>
+      <xs:enumeration value="touche"/>
+      <xs:enumeration value="eau"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Types de bateaux bateaux -->
+  <xs:simpleType name="typeBateau">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="porte-avions"/>
+      <xs:enumeration value="croiseur"/>
+      <xs:enumeration value="contre-torpilleur"/>
+      <xs:enumeration value="sous-marin"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Etat des bateaux -->
+  <xs:simpleType name="etatBateau">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="intact"/>
+      <xs:enumeration value="touche"/>
+      <xs:enumeration value="coule"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
