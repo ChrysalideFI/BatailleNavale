@@ -24,7 +24,7 @@
   <!-- Grille -->
   <xs:complexType name="grilleType">
     <xs:sequence>
-      <xs:element name="case" type="caseType" minOccurs="100" maxOccurs="100" /> <!-- Lignes de jeu -->
+      <xs:element name="case" type="caseGrilleType" minOccurs="100" maxOccurs="100" /> <!-- Lignes de jeu -->
     </xs:sequence>
   </xs:complexType>
 
@@ -60,10 +60,17 @@
     </xs:restriction>
   </xs:simpleType>
 
+  <xs:complexType name="caseGrilleType">
+  <xs:complexContent>
+  <xs:extension base="caseType">
+    <xs:attribute name="etat" type="etatType" />
+    </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
   <xs:complexType name="caseType">
     <xs:attribute name="ligne" type="indiceLigneType" />
     <xs:attribute name="colonne" type="indiceColonneType" />
-    <xs:attribute name="etat" type="etatType" />
   </xs:complexType>
 
   <!-- Etat cases -->
@@ -90,6 +97,7 @@
     <xs:sequence>
       <xs:element name="case" type="caseType" minOccurs="5" maxOccurs="5" />
     </xs:sequence>
+    <xs:attribute name="id" type="xs:string" />
     <xs:attribute name="etat" type="etatBateau" />
   </xs:complexType>
 
@@ -98,6 +106,7 @@
       <xs:element name="case" type="caseType" minOccurs="4" maxOccurs="4" />
     </xs:sequence>
     <xs:attribute name="etat" type="etatBateau" />
+    <xs:attribute name="id" type="xs:string" />
   </xs:complexType>
 
   <xs:complexType name="contreTorpilleur">
@@ -105,6 +114,7 @@
       <xs:element name="case" type="caseType" minOccurs="3" maxOccurs="3" />
     </xs:sequence>
     <xs:attribute name="etat" type="etatBateau" />
+    <xs:attribute name="id" type="xs:string" />
   </xs:complexType>
 
   <xs:complexType name="sousMarin">
@@ -112,6 +122,7 @@
       <xs:element name="case" type="caseType" minOccurs="2" maxOccurs="2" />
     </xs:sequence>
     <xs:attribute name="etat" type="etatBateau" />
+    <xs:attribute name="id" type="xs:string" />
   </xs:complexType>
 
   <!-- Etat des bateaux -->
