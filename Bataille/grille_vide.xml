@@ -1,285 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <batailleNavale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="validationgrille.xsd">
+  xsi:noNamespaceSchemaLocation="validationgrille.xsd">
   <!-- Grille du joueur 1 et joueur 2-->
   <!-- avant que la partie de commence une fois tous les bateaux placés -->
   <joueur1>
     <grille>
-      <ligneIndicateur>1 2 3 4 5 6 7 8 9 10</ligneIndicateur>
-      <colonneIndicateur>A B C D E F G H I J</colonneIndicateur>
-      <ligne>
-        <case coordonnees="A1" etat="eau"/>
-        <case coordonnees="A2" etat="eau"/>
-        <case coordonnees="A3" etat="eau"/>
-        <case coordonnees="A4" etat="eau"/>
-        <case coordonnees="A5" etat="eau"/>
-        <case coordonnees="A6" etat="eau"/>
-        <case coordonnees="A7" etat="eau"/>
-        <case coordonnees="A8" etat="eau"/>
-        <case coordonnees="A9" etat="eau"/>
-        <case coordonnees="A10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="B1" etat="eau"/>
-        <case coordonnees="B2" etat="eau"/>
-        <case coordonnees="B3" etat="eau"/>
-        <case coordonnees="B4" etat="eau"/>
-        <case coordonnees="B5" etat="eau"/>
-        <case coordonnees="B6" etat="eau"/>
-        <case coordonnees="B7" etat="eau"/>
-        <case coordonnees="B8" etat="eau"/>
-        <case coordonnees="B9" etat="eau"/>
-        <case coordonnees="B10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="C1" etat="eau"/>
-        <case coordonnees="C2" etat="eau"/>
-        <case coordonnees="C3" etat="eau"/>
-        <case coordonnees="C4" etat="eau"/>
-        <case coordonnees="C5" etat="eau"/>
-        <case coordonnees="C6" etat="eau"/>
-        <case coordonnees="C7" etat="eau"/>
-        <case coordonnees="C8" etat="eau"/>
-        <case coordonnees="C9" etat="eau"/>
-        <case coordonnees="C10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="D1" etat="eau"/>
-        <case coordonnees="D2" etat="eau"/>
-        <case coordonnees="D3" etat="eau"/>
-        <case coordonnees="D4" etat="eau"/>
-        <case coordonnees="D5" etat="eau"/>
-        <case coordonnees="D6" etat="eau"/>
-        <case coordonnees="D7" etat="eau"/>
-        <case coordonnees="D8" etat="eau"/>
-        <case coordonnees="D9" etat="eau"/>
-        <case coordonnees="D10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="E1" etat="eau"/>
-        <case coordonnees="E2" etat="eau"/>
-        <case coordonnees="E3" etat="eau"/>
-        <case coordonnees="E4" etat="eau"/>
-        <case coordonnees="E5" etat="eau"/>
-        <case coordonnees="E6" etat="eau"/>
-        <case coordonnees="E7" etat="eau"/>
-        <case coordonnees="E8" etat="eau"/>
-        <case coordonnees="E9" etat="eau"/>
-        <case coordonnees="E10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="F1" etat="eau"/>
-        <case coordonnees="F2" etat="eau"/>
-        <case coordonnees="F3" etat="eau"/>
-        <case coordonnees="F4" etat="eau"/>
-        <case coordonnees="F5" etat="eau"/>
-        <case coordonnees="F6" etat="eau"/>
-        <case coordonnees="F7" etat="eau"/>
-        <case coordonnees="F8" etat="eau"/>
-        <case coordonnees="F9" etat="eau"/>
-        <case coordonnees="F10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="G1" etat="eau"/>
-        <case coordonnees="G2" etat="eau"/>
-        <case coordonnees="G3" etat="eau"/>
-        <case coordonnees="G4" etat="eau"/>
-        <case coordonnees="G5" etat="eau"/>
-        <case coordonnees="G6" etat="eau"/>
-        <case coordonnees="G7" etat="eau"/>
-        <case coordonnees="G8" etat="eau"/>
-        <case coordonnees="G9" etat="eau"/>
-        <case coordonnees="G10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="H1" etat="eau"/>
-        <case coordonnees="H2" etat="eau"/>
-        <case coordonnees="H3" etat="eau"/>
-        <case coordonnees="H4" etat="eau"/>
-        <case coordonnees="H5" etat="eau"/>
-        <case coordonnees="H6" etat="eau"/>
-        <case coordonnees="H7" etat="eau"/>
-        <case coordonnees="H8" etat="eau"/>
-        <case coordonnees="H9" etat="eau"/>
-        <case coordonnees="H10" etat="eau"/>
-      </ligne>      
-      <ligne>
-        <case coordonnees="I1" etat="eau"/>
-        <case coordonnees="I2" etat="eau"/>
-        <case coordonnees="I3" etat="eau"/>
-        <case coordonnees="I4" etat="eau"/>
-        <case coordonnees="I5" etat="eau"/>
-        <case coordonnees="I6" etat="eau"/>
-        <case coordonnees="I7" etat="eau"/>
-        <case coordonnees="I8" etat="eau"/>
-        <case coordonnees="I9" etat="eau"/>
-        <case coordonnees="I10" etat="eau"/>
-      </ligne>      
-      <ligne>
-        <case coordonnees="J1" etat="eau"/>
-        <case coordonnees="J2" etat="eau"/>
-        <case coordonnees="J3" etat="eau"/>
-        <case coordonnees="J4" etat="eau"/>
-        <case coordonnees="J5" etat="eau"/>
-        <case coordonnees="J6" etat="eau"/>
-        <case coordonnees="J7" etat="eau"/>
-        <case coordonnees="J8" etat="eau"/>
-        <case coordonnees="J9" etat="eau"/>
-        <case coordonnees="J10" etat="eau"/>
-      </ligne>
+      <case ligne="1" colonne="A" etat="eau" />
+      <case ligne="1" colonne="B" etat="eau" />
+      <case ligne="1" colonne="C" etat="eau" />
+      <case ligne="1" colonne="D" etat="eau" />
+      <case ligne="1" colonne="E" etat="eau" />
+      <case ligne="1" colonne="F" etat="eau" />
+      <case ligne="1" colonne="G" etat="eau" />
+      <case ligne="1" colonne="H" etat="eau" />
+      <case ligne="1" colonne="I" etat="eau" />
+      <case ligne="1" colonne="J" etat="eau" />
+
+      <case ligne="2" colonne="A" etat="eau" />
+      <case ligne="2" colonne="B" etat="eau" />
+      <case ligne="2" colonne="C" etat="eau" />
+      <case ligne="2" colonne="D" etat="eau" />
+      <case ligne="2" colonne="E" etat="eau" />
+      <case ligne="2" colonne="F" etat="eau" />
+      <case ligne="2" colonne="G" etat="eau" />
+      <case ligne="2" colonne="H" etat="eau" />
+      <case ligne="2" colonne="I" etat="eau" />
+      <case ligne="2" colonne="J" etat="eau" />
+
+      <case ligne="3" colonne="A" etat="eau" />
+      <case ligne="3" colonne="B" etat="eau" />
+      <case ligne="3" colonne="C" etat="eau" />
+      <case ligne="3" colonne="D" etat="eau" />
+      <case ligne="3" colonne="E" etat="eau" />
+      <case ligne="3" colonne="F" etat="eau" />
+      <case ligne="3" colonne="G" etat="eau" />
+      <case ligne="3" colonne="H" etat="eau" />
+      <case ligne="3" colonne="I" etat="eau" />
+      <case ligne="3" colonne="J" etat="eau" />
+
+      <case ligne="4" colonne="A" etat="eau" />
+      <case ligne="4" colonne="B" etat="eau" />
+      <case ligne="4" colonne="C" etat="eau" />
+      <case ligne="4" colonne="D" etat="eau" />
+      <case ligne="4" colonne="E" etat="eau" />
+      <case ligne="4" colonne="F" etat="eau" />
+      <case ligne="4" colonne="G" etat="eau" />
+      <case ligne="4" colonne="H" etat="eau" />
+      <case ligne="4" colonne="I" etat="eau" />
+      <case ligne="4" colonne="J" etat="eau" />
+
+      <case ligne="5" colonne="A" etat="eau" />
+      <case ligne="5" colonne="B" etat="eau" />
+      <case ligne="5" colonne="C" etat="eau" />
+      <case ligne="5" colonne="D" etat="eau" />
+      <case ligne="5" colonne="E" etat="eau" />
+      <case ligne="5" colonne="F" etat="eau" />
+      <case ligne="5" colonne="G" etat="eau" />
+      <case ligne="5" colonne="H" etat="eau" />
+      <case ligne="5" colonne="I" etat="eau" />
+      <case ligne="5" colonne="J" etat="eau" />
+
+      <case ligne="6" colonne="A" etat="eau" />
+      <case ligne="6" colonne="B" etat="eau" />
+      <case ligne="6" colonne="C" etat="eau" />
+      <case ligne="6" colonne="D" etat="eau" />
+      <case ligne="6" colonne="E" etat="eau" />
+      <case ligne="6" colonne="F" etat="eau" />
+      <case ligne="6" colonne="G" etat="eau" />
+      <case ligne="6" colonne="H" etat="eau" />
+      <case ligne="6" colonne="I" etat="eau" />
+      <case ligne="6" colonne="J" etat="eau" />
+
+      <case ligne="7" colonne="A" etat="eau" />
+      <case ligne="7" colonne="B" etat="eau" />
+      <case ligne="7" colonne="C" etat="eau" />
+      <case ligne="7" colonne="D" etat="eau" />
+      <case ligne="7" colonne="E" etat="eau" />
+      <case ligne="7" colonne="F" etat="eau" />
+      <case ligne="7" colonne="G" etat="eau" />
+      <case ligne="7" colonne="H" etat="eau" />
+      <case ligne="7" colonne="I" etat="eau" />
+      <case ligne="7" colonne="J" etat="eau" />
+
+      <case ligne="8" colonne="A" etat="eau" />
+      <case ligne="8" colonne="B" etat="eau" />
+      <case ligne="8" colonne="C" etat="eau" />
+      <case ligne="8" colonne="D" etat="eau" />
+      <case ligne="8" colonne="E" etat="eau" />
+      <case ligne="8" colonne="F" etat="eau" />
+      <case ligne="8" colonne="G" etat="eau" />
+      <case ligne="8" colonne="H" etat="eau" />
+      <case ligne="8" colonne="I" etat="eau" />
+      <case ligne="8" colonne="J" etat="eau" />
+
+      <case ligne="9" colonne="A" etat="eau" />
+      <case ligne="9" colonne="B" etat="eau" />
+      <case ligne="9" colonne="C" etat="eau" />
+      <case ligne="9" colonne="D" etat="eau" />
+      <case ligne="9" colonne="E" etat="eau" />
+      <case ligne="9" colonne="F" etat="eau" />
+      <case ligne="9" colonne="G" etat="eau" />
+      <case ligne="9" colonne="H" etat="eau" />
+      <case ligne="9" colonne="I" etat="eau" />
+      <case ligne="9" colonne="J" etat="eau" />
+
+      <case ligne="10" colonne="A" etat="eau" />
+      <case ligne="10" colonne="B" etat="eau" />
+      <case ligne="10" colonne="C" etat="eau" />
+      <case ligne="10" colonne="D" etat="eau" />
+      <case ligne="10" colonne="E" etat="eau" />
+      <case ligne="10" colonne="F" etat="eau" />
+      <case ligne="10" colonne="G" etat="eau" />
+      <case ligne="10" colonne="H" etat="eau" />
+      <case ligne="10" colonne="I" etat="eau" />
+      <case ligne="10" colonne="J" etat="eau" />
     </grille>
-    <flotte>
-      <porteAvions taille="5" etat="intact"/>
-      <croiseur taille="4" etat="intact"/>
-      <croiseur taille="4" etat="intact"/>
-      <contreTorpilleur taille="3" etat="intact"/>
-      <contreTorpilleur taille="3" etat="intact"/>
-      <contreTorpilleur taille="3" etat="intact"/>
-      <sousMarin taille="2" etat="intact"/>
-      <sousMarin taille="2" etat="intact"/>
-      <sousMarin taille="2" etat="intact"/>
-      <sousMarin taille="2" etat="intact"/>
-    </flotte>
-    </tir> <!-- Il n'y a pas eu de tir pour le moment -->
-  </joueur1>
+    <!-- Pas de tir -->
+    <!-- Pas de flotte -->
+    </joueur1>
+
   <joueur2>
     <grille>
-      <ligneIndicateur>1 2 3 4 5 6 7 8 9 10</ligneIndicateur>
-      <colonneIndicateur>A B C D E F G H I J</colonneIndicateur>
-      <ligne>
-        <case coordonnees="A1" etat="eau"/>
-        <case coordonnees="A2" etat="eau"/>
-        <case coordonnees="A3" etat="eau"/>
-        <case coordonnees="A4" etat="eau"/>
-        <case coordonnees="A5" etat="eau"/>
-        <case coordonnees="A6" etat="eau"/>
-        <case coordonnees="A7" etat="eau"/>
-        <case coordonnees="A8" etat="eau"/>
-        <case coordonnees="A9" etat="eau"/>
-        <case coordonnees="A10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="B1" etat="eau"/>
-        <case coordonnees="B2" etat="eau"/>
-        <case coordonnees="B3" etat="eau"/>
-        <case coordonnees="B4" etat="eau"/>
-        <case coordonnees="B5" etat="eau"/>
-        <case coordonnees="B6" etat="eau"/>
-        <case coordonnees="B7" etat="eau"/>
-        <case coordonnees="B8" etat="eau"/>
-        <case coordonnees="B9" etat="eau"/>
-        <case coordonnees="B10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="C1" etat="eau"/>
-        <case coordonnees="C2" etat="eau"/>
-        <case coordonnees="C3" etat="eau"/>
-        <case coordonnees="C4" etat="eau"/>
-        <case coordonnees="C5" etat="eau"/>
-        <case coordonnees="C6" etat="eau"/>
-        <case coordonnees="C7" etat="eau"/>
-        <case coordonnees="C8" etat="eau"/>
-        <case coordonnees="C9" etat="eau"/>
-        <case coordonnees="C10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="D1" etat="eau"/>
-        <case coordonnees="D2" etat="eau"/>
-        <case coordonnees="D3" etat="eau"/>
-        <case coordonnees="D4" etat="eau"/>
-        <case coordonnees="D5" etat="eau"/>
-        <case coordonnees="D6" etat="eau"/>
-        <case coordonnees="D7" etat="eau"/>
-        <case coordonnees="D8" etat="eau"/>
-        <case coordonnees="D9" etat="eau"/>
-        <case coordonnees="D10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="E1" etat="eau"/>
-        <case coordonnees="E2" etat="eau"/>
-        <case coordonnees="E3" etat="eau"/>
-        <case coordonnees="E4" etat="eau"/>
-        <case coordonnees="E5" etat="eau"/>
-        <case coordonnees="E6" etat="eau"/>
-        <case coordonnees="E7" etat="eau"/>
-        <case coordonnees="E8" etat="eau"/>
-        <case coordonnees="E9" etat="eau"/>
-        <case coordonnees="E10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="F1" etat="eau"/>
-        <case coordonnees="F2" etat="eau"/>
-        <case coordonnees="F3" etat="eau"/>
-        <case coordonnees="F4" etat="eau"/>
-        <case coordonnees="F5" etat="eau"/>
-        <case coordonnees="F6" etat="eau"/>
-        <case coordonnees="F7" etat="eau"/>
-        <case coordonnees="F8" etat="eau"/>
-        <case coordonnees="F9" etat="eau"/>
-        <case coordonnees="F10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="G1" etat="eau"/>
-        <case coordonnees="G2" etat="eau"/>
-        <case coordonnees="G3" etat="eau"/>
-        <case coordonnees="G4" etat="eau"/>
-        <case coordonnees="G5" etat="eau"/>
-        <case coordonnees="G6" etat="eau"/>
-        <case coordonnees="G7" etat="eau"/>
-        <case coordonnees="G8" etat="eau"/>
-        <case coordonnees="G9" etat="eau"/>
-        <case coordonnees="G10" etat="eau"/>
-      </ligne>
-      <ligne>
-        <case coordonnees="H1" etat="eau"/>
-        <case coordonnees="H2" etat="eau"/>
-        <case coordonnees="H3" etat="eau"/>
-        <case coordonnees="H4" etat="eau"/>
-        <case coordonnees="H5" etat="eau"/>
-        <case coordonnees="H6" etat="eau"/>
-        <case coordonnees="H7" etat="eau"/>
-        <case coordonnees="H8" etat="eau"/>
-        <case coordonnees="H9" etat="eau"/>
-        <case coordonnees="H10" etat="eau"/>
-      </ligne>      
-      <ligne>
-        <case coordonnees="I1" etat="eau"/>
-        <case coordonnees="I2" etat="eau"/>
-        <case coordonnees="I3" etat="eau"/>
-        <case coordonnees="I4" etat="eau"/>
-        <case coordonnees="I5" etat="eau"/>
-        <case coordonnees="I6" etat="eau"/>
-        <case coordonnees="I7" etat="eau"/>
-        <case coordonnees="I8" etat="eau"/>
-        <case coordonnees="I9" etat="eau"/>
-        <case coordonnees="I10" etat="eau"/>
-      </ligne>      
-      <ligne>
-        <case coordonnees="J1" etat="eau"/>
-        <case coordonnees="J2" etat="eau"/>
-        <case coordonnees="J3" etat="eau"/>
-        <case coordonnees="J4" etat="eau"/>
-        <case coordonnees="J5" etat="eau"/>
-        <case coordonnees="J6" etat="eau"/>
-        <case coordonnees="J7" etat="eau"/>
-        <case coordonnees="J8" etat="eau"/>
-        <case coordonnees="J9" etat="eau"/>
-        <case coordonnees="J10" etat="eau"/>
-      </ligne>
+      <case ligne="1" colonne="A" etat="eau" />
+      <case ligne="1" colonne="B" etat="eau" />
+      <case ligne="1" colonne="C" etat="eau" />
+      <case ligne="1" colonne="D" etat="eau" />
+      <case ligne="1" colonne="E" etat="eau" />
+      <case ligne="1" colonne="F" etat="eau" />
+      <case ligne="1" colonne="G" etat="eau" />
+      <case ligne="1" colonne="H" etat="eau" />
+      <case ligne="1" colonne="I" etat="eau" />
+      <case ligne="1" colonne="J" etat="eau" />
+
+      <case ligne="2" colonne="A" etat="eau" />
+      <case ligne="2" colonne="B" etat="eau" />
+      <case ligne="2" colonne="C" etat="eau" />
+      <case ligne="2" colonne="D" etat="eau" />
+      <case ligne="2" colonne="E" etat="eau" />
+      <case ligne="2" colonne="F" etat="eau" />
+      <case ligne="2" colonne="G" etat="eau" />
+      <case ligne="2" colonne="H" etat="eau" />
+      <case ligne="2" colonne="I" etat="eau" />
+      <case ligne="2" colonne="J" etat="eau" />
+
+      <case ligne="3" colonne="A" etat="eau" />
+      <case ligne="3" colonne="B" etat="eau" />
+      <case ligne="3" colonne="C" etat="eau" />
+      <case ligne="3" colonne="D" etat="eau" />
+      <case ligne="3" colonne="E" etat="eau" />
+      <case ligne="3" colonne="F" etat="eau" />
+      <case ligne="3" colonne="G" etat="eau" />
+      <case ligne="3" colonne="H" etat="eau" />
+      <case ligne="3" colonne="I" etat="eau" />
+      <case ligne="3" colonne="J" etat="eau" />
+
+      <case ligne="4" colonne="A" etat="eau" />
+      <case ligne="4" colonne="B" etat="eau" />
+      <case ligne="4" colonne="C" etat="eau" />
+      <case ligne="4" colonne="D" etat="eau" />
+      <case ligne="4" colonne="E" etat="eau" />
+      <case ligne="4" colonne="F" etat="eau" />
+      <case ligne="4" colonne="G" etat="eau" />
+      <case ligne="4" colonne="H" etat="eau" />
+      <case ligne="4" colonne="I" etat="eau" />
+      <case ligne="4" colonne="J" etat="eau" />
+
+      <case ligne="5" colonne="A" etat="eau" />
+      <case ligne="5" colonne="B" etat="eau" />
+      <case ligne="5" colonne="C" etat="eau" />
+      <case ligne="5" colonne="D" etat="eau" />
+      <case ligne="5" colonne="E" etat="eau" />
+      <case ligne="5" colonne="F" etat="eau" />
+      <case ligne="5" colonne="G" etat="eau" />
+      <case ligne="5" colonne="H" etat="eau" />
+      <case ligne="5" colonne="I" etat="eau" />
+      <case ligne="5" colonne="J" etat="eau" />
+
+      <case ligne="6" colonne="A" etat="eau" />
+      <case ligne="6" colonne="B" etat="eau" />
+      <case ligne="6" colonne="C" etat="eau" />
+      <case ligne="6" colonne="D" etat="eau" />
+      <case ligne="6" colonne="E" etat="eau" />
+      <case ligne="6" colonne="F" etat="eau" />
+      <case ligne="6" colonne="G" etat="eau" />
+      <case ligne="6" colonne="H" etat="eau" />
+      <case ligne="6" colonne="I" etat="eau" />
+      <case ligne="6" colonne="J" etat="eau" />
+
+      <case ligne="7" colonne="A" etat="eau" />
+      <case ligne="7" colonne="B" etat="eau" />
+      <case ligne="7" colonne="C" etat="eau" />
+      <case ligne="7" colonne="D" etat="eau" />
+      <case ligne="7" colonne="E" etat="eau" />
+      <case ligne="7" colonne="F" etat="eau" />
+      <case ligne="7" colonne="G" etat="eau" />
+      <case ligne="7" colonne="H" etat="eau" />
+      <case ligne="7" colonne="I" etat="eau" />
+      <case ligne="7" colonne="J" etat="eau" />
+
+      <case ligne="8" colonne="A" etat="eau" />
+      <case ligne="8" colonne="B" etat="eau" />
+      <case ligne="8" colonne="C" etat="eau" />
+      <case ligne="8" colonne="D" etat="eau" />
+      <case ligne="8" colonne="E" etat="eau" />
+      <case ligne="8" colonne="F" etat="eau" />
+      <case ligne="8" colonne="G" etat="eau" />
+      <case ligne="8" colonne="H" etat="eau" />
+      <case ligne="8" colonne="I" etat="eau" />
+      <case ligne="8" colonne="J" etat="eau" />
+
+      <case ligne="9" colonne="A" etat="eau" />
+      <case ligne="9" colonne="B" etat="eau" />
+      <case ligne="9" colonne="C" etat="eau" />
+      <case ligne="9" colonne="D" etat="eau" />
+      <case ligne="9" colonne="E" etat="eau" />
+      <case ligne="9" colonne="F" etat="eau" />
+      <case ligne="9" colonne="G" etat="eau" />
+      <case ligne="9" colonne="H" etat="eau" />
+      <case ligne="9" colonne="I" etat="eau" />
+      <case ligne="9" colonne="J" etat="eau" />
+
+      <case ligne="10" colonne="A" etat="eau" />
+      <case ligne="10" colonne="B" etat="eau" />
+      <case ligne="10" colonne="C" etat="eau" />
+      <case ligne="10" colonne="D" etat="eau" />
+      <case ligne="10" colonne="E" etat="eau" />
+      <case ligne="10" colonne="F" etat="eau" />
+      <case ligne="10" colonne="G" etat="eau" />
+      <case ligne="10" colonne="H" etat="eau" />
+      <case ligne="10" colonne="I" etat="eau" />
+      <case ligne="10" colonne="J" etat="eau" />
     </grille>
-    <flotte>
-      <porteAvions taille="5" etat="intact" coordonnees=""/>
-      <croiseur taille="4" etat="intact"/>
-      <croiseur taille="4" etat="intact"/>
-      <contreTorpilleur taille="3" etat="intact"/>
-      <contreTorpilleur taille="3" etat="intact"/>
-      <contreTorpilleur taille="3" etat="intact"/>
-      <sousMarin taille="2" etat="intact"/>
-      <sousMarin taille="2" etat="intact"/>
-      <sousMarin taille="2" etat="intact"/>
-      <sousMarin taille="2" etat="intact"/>
-    </flotte>
-    </tir> <!-- Il n'y a pas eu de tir pour le moment -->
+    <!-- Pas de tir -->
+    <!-- Pas de flotte -->
   </joueur2>
   <etatPartie>avantPartie</etatPartie>
   <joueurActif>joueur1</joueurActif>
