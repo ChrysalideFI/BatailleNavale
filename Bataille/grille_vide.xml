@@ -2,7 +2,7 @@
 <batailleNavale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="validationgrille.xsd">
   <!-- Grille du joueur 1 et joueur 2-->
-  <!-- avant que la partie de commence une fois tous les bateaux placés -->
+  <!-- avant que la partie , sans bateaux -->
   <joueur1>
     <grille>
       <case ligne="1" colonne="A" etat="eau" />
