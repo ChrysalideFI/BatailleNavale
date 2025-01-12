@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <batailleNavale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="validationgrille.xsd">
+  xsi:noNamespaceSchemaLocation="..//XSD//validationgrille.xsd">
   <!-- Grille du joueur 1 et joueur 2-->
   <!-- Partie finie, avec victoire du joueur 1 -->
+  <!-- Flotte incomplète : il manque un croiseur pour le joueur 1 -->
   <joueur1>
     <grille>
       <case ligne="1" colonne="A" etat="bateau" />
