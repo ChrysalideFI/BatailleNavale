@@ -82,4 +82,23 @@
     </li>
   </xsl:template>
 
+  <!-- Validation grille -->
+    <xsl:template match="batailleNavale">
+        <xsl:if test="not(porteAvions) or count(croiseur)!=2 or count(contreTorpilleur)!=3 or count(sousMarin)!=4">
+            <p>La flotte n'est pas complète.</p>
+        </xsl:if>
+        <xsl:for-each select="joueur1/grille/case[@etat='bateau']">
+            <xsl:variable name="ligne" select="@ligne"/>
+            <xsl:variable name="colonne" select="@colonne"/>
+            <xsl:variable name="bateauId" select="ancestor::porteAvions/@id | ancestor::croiseur/@id | ancestor::contreTorpilleur/@id | ancestor::sousMarin/@id"/>
+            <xsl:if test="//case[@etat='bateau' and 
+                (not(@ligne = $ligne and @colonne = $colonne) and 
+                (abs(number(@ligne) - number($ligne)) &lt;= 1 and abs(number(@colonne) - number($colonne)) &lt;= 1) and 
+                (ancestor::porteAvions/@id != $bateauId and ancestor::croiseur/@id != $bateauId and 
+                ancestor::contreTorpilleur/@id != $bateauId and ancestor::sousMarin/@id != $bateauId))]">
+                <p>Les bateaux sont en contact.</p>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+
 </xsl:stylesheet>
