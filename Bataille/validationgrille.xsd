@@ -61,10 +61,10 @@
   </xs:simpleType>
 
   <xs:complexType name="caseGrilleType">
-  <xs:complexContent>
-  <xs:extension base="caseType">
-    <xs:attribute name="etat" type="etatType" />
-    </xs:extension>
+    <xs:complexContent>
+      <xs:extension base="caseType">
+        <xs:attribute name="etat" type="etatType" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
 
@@ -84,7 +84,7 @@
   <!-- Flotte du joueur -->
   <xs:complexType name="flotteType">
     <xs:sequence>
-      <xs:element name="porteAvions" type="porteAvions" maxOccurs="1" />
+      <xs:element name="porteAvions" type="porteAvions" minOccurs="1" maxOccurs="1" />
       <xs:element name="croiseur" type="croiseur" minOccurs="2" maxOccurs="2" />
       <xs:element name="contreTorpilleur" type="contreTorpilleur" minOccurs="3" maxOccurs="3" />
       <xs:element name="sousMarin" type="sousMarin" minOccurs="4" maxOccurs="4" />
