@@ -2,7 +2,7 @@
 <batailleNavale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="validationgrille.xsd">
   <!-- Grille du joueur 1 et joueur 2-->
-  <!-- avant que la partie de commence une fois tous les bateaux placés -->
+  <!-- Partie finie, avec victoire du joueur 1 -->
   <joueur1>
     <grille>
       <case ligne="1" colonne="A" etat="bateau" />
@@ -115,7 +115,6 @@
       <case ligne="10" colonne="I" etat="bateau" />
       <case ligne="10" colonne="J" etat="bateau" />
     </grille>
-    <!-- Pas de tir -->
     <flotte>
       <porteAvions etat="intact" id="PA">
         <case ligne="10" colonne="F" />
@@ -136,7 +135,7 @@
         <case ligne="5" colonne="A" />
         <case ligne="6" colonne="A" />
       </croiseur>
-      <contreTorpilleur etat="intact" id="CT1">
+      <contreTorpilleur etat="touche" id="CT1">
         <case ligne="6" colonne="J" />
         <case ligne="7" colonne="J" />
         <case ligne="8" colonne="J" />
@@ -163,12 +162,55 @@
         <case ligne="6" colonne="F" />
         <case ligne="7" colonne="F" />
       </sousMarin>
-      <sousMarin etat="intact" id="SM4">
+      <sousMarin etat="coule" id="SM4">
         <case ligne="8" colonne="A" />
         <case ligne="8" colonne="B" />
       </sousMarin>
     </flotte>
 
+    <tirsReçus>
+      <tir ligne="4" colonne="C" etat="manque" />
+      <tir ligne="5" colonne="F" etat="manque" />
+      <tir ligne="5" colonne="G" etat="manque" />
+      <tir ligne="6" colonne="B" etat="manque" />
+      <tir ligne="6" colonne="H" etat="manque" />
+      <tir ligne="6" colonne="J" etat="touche" />
+      <tir ligne="7" colonne="D" etat="manque" />
+      <tir ligne="7" colonne="J" etat="touche" />
+      <tir ligne="8" colonne="A" etat="touche" />
+      <tir ligne="8" colonne="B" etat="touche" />
+      <tir ligne="8" colonne="H" etat="manque" />
+
+      <tir ligne="1" colonne="C" etat="manque" />
+      <tir ligne="1" colonne="E" etat="manque" />
+      <tir ligne="1" colonne="F" etat="manque" />
+      <tir ligne="2" colonne="B" etat="manque" />
+      <tir ligne="2" colonne="C" etat="manque" />
+      <tir ligne="2" colonne="F" etat="manque" />
+      <tir ligne="2" colonne="H" etat="manque" />
+      <tir ligne="2" colonne="J" etat="manque" />
+      <tir ligne="3" colonne="C" etat="manque" />
+      <tir ligne="4" colonne="E" etat="manque" />
+      <tir ligne="4" colonne="G" etat="manque" />
+
+      <tir ligne="5" colonne="B" etat="manque" />
+      <tir ligne="5" colonne="D" etat="manque" />
+      <tir ligne="5" colonne="E" etat="manque" />
+      <tir ligne="5" colonne="H" etat="manque" />
+      <tir ligne="5" colonne="J" etat="manque" />
+      <tir ligne="6" colonne="D" etat="manque" />
+      <tir ligne="6" colonne="I" etat="manque" />
+      <tir ligne="7" colonne="B" etat="manque" />
+      <tir ligne="8" colonne="C" etat="manque" />
+      <tir ligne="9" colonne="A" etat="manque" />
+
+      <tir ligne="9" colonne="B" etat="manque" />
+      <tir ligne="9" colonne="C" etat="manque" />
+      <tir ligne="9" colonne="D" etat="manque" />
+      <tir ligne="9" colonne="E" etat="manque" />
+      <tir ligne="9" colonne="F" etat="manque" />
+      <tir ligne="9" colonne="G" etat="manque" />
+    </tirsReçus>
   </joueur1>
 
   <joueur2>
@@ -283,60 +325,102 @@
       <case ligne="10" colonne="I" etat="bateau" />
       <case ligne="10" colonne="J" etat="bateau" />
     </grille>
-    <!-- Pas de tir -->
-<flotte>
-      <porteAvions etat="intact" id="PA">
+    <flotte>
+      <porteAvions etat="coule" id="PA">
         <case ligne="1" colonne="F" />
         <case ligne="1" colonne="G" />
         <case ligne="1" colonne="H" />
         <case ligne="1" colonne="I" />
         <case ligne="1" colonne="J" />
       </porteAvions>
-      <croiseur etat="intact" id="Cr1">
+      <croiseur etat="coule" id="Cr1">
         <case ligne="10" colonne="G" />
         <case ligne="10" colonne="H" />
         <case ligne="10" colonne="I" />
         <case ligne="10" colonne="J" />
       </croiseur>
-      <croiseur etat="intact" id="Cr2">
+      <croiseur etat="coule" id="Cr2">
         <case ligne="5" colonne="A" />
         <case ligne="6" colonne="A" />
         <case ligne="7" colonne="A" />
         <case ligne="8" colonne="A" />
       </croiseur>
-      <contreTorpilleur etat="intact" id="CT1">
+      <contreTorpilleur etat="coule" id="CT1">
         <case ligne="3" colonne="J" />
         <case ligne="4" colonne="J" />
         <case ligne="5" colonne="J" />
       </contreTorpilleur>
-      <contreTorpilleur etat="intact" id="CT2">
+      <contreTorpilleur etat="coule" id="CT2">
         <case ligne="8" colonne="F" />
         <case ligne="8" colonne="G" />
         <case ligne="8" colonne="H" />
       </contreTorpilleur>
-      <contreTorpilleur etat="intact" id="CT3">
+      <contreTorpilleur etat="coule" id="CT3">
         <case ligne="8" colonne="D" />
         <case ligne="9" colonne="D" />
         <case ligne="10" colonne="D" />
       </contreTorpilleur>
-      <sousMarin etat="intact" id="SM1">
+      <sousMarin etat="coule" id="SM1">
         <case ligne="10" colonne="A" />
         <case ligne="10" colonne="B" />
       </sousMarin>
-      <sousMarin etat="intact" id="SM2">
+      <sousMarin etat="coule" id="SM2">
         <case ligne="7" colonne="J" />
         <case ligne="8" colonne="J" />
       </sousMarin>
-      <sousMarin etat="intact" id="SM3">
+      <sousMarin etat="coule" id="SM3">
         <case ligne="4" colonne="F" />
         <case ligne="5" colonne="F" />
       </sousMarin>
-      <sousMarin etat="intact" id="SM4">
+      <sousMarin etat="coule" id="SM4">
         <case ligne="3" colonne="A" />
         <case ligne="3" colonne="B" />
       </sousMarin>
     </flotte>
+    <tirsReçus>
+      <tir ligne="1" colonne="D" etat="manque" />
+      <tir ligne="1" colonne="G" etat="touche" />
+      <tir ligne="3" colonne="E" etat="manque" />
+      <tir ligne="3" colonne="H" etat="manque" />
+      <tir ligne="4" colonne="A" etat="manque" />
+      <tir ligne="5" colonne="H" etat="manque" />
+      <tir ligne="6" colonne="J" etat="manque" />
+      <tir ligne="8" colonne="C" etat="manque" />
+      <tir ligne="9" colonne="D" etat="touche" />
+      <tir ligne="9" colonne="G" etat="manque" />
+      <tir ligne="10" colonne="H" etat="touche" />
+
+      <tir ligne="1" colonne="F" etat="touche" />
+      <tir ligne="1" colonne="H" etat="touche" />
+      <tir ligne="1" colonne="I" etat="touche" />
+      <tir ligne="1" colonne="J" etat="touche" />
+      <tir ligne="10" colonne="G" etat="touche" />
+      <tir ligne="10" colonne="I" etat="touche" />
+      <tir ligne="10" colonne="J" etat="touche" />
+      <tir ligne="5" colonne="A" etat="touche" />
+      <tir ligne="6" colonne="A" etat="touche" />
+      <tir ligne="7" colonne="A" etat="touche" />
+      <tir ligne="8" colonne="A" etat="touche" />
+
+      <tir ligne="3" colonne="J" etat="touche" />
+      <tir ligne="4" colonne="J" etat="touche" />
+      <tir ligne="5" colonne="J" etat="touche" />
+      <tir ligne="8" colonne="F" etat="touche" />
+      <tir ligne="8" colonne="G" etat="touche" />
+      <tir ligne="8" colonne="H" etat="touche" />
+      <tir ligne="8" colonne="D" etat="touche" />
+      <tir ligne="10" colonne="D" etat="touche" />
+      <tir ligne="10" colonne="A" etat="touche" />
+      <tir ligne="10" colonne="B" etat="touche" />
+
+      <tir ligne="7" colonne="J" etat="touche" />
+      <tir ligne="8" colonne="J" etat="touche" />
+      <tir ligne="4" colonne="F" etat="touche" />
+      <tir ligne="5" colonne="F" etat="touche" />
+      <tir ligne="3" colonne="A" etat="touche" />
+      <tir ligne="3" colonne="B" etat="touche" />
+    </tirsReçus>
   </joueur2>
-  <etatPartie>avantPartie</etatPartie>
+  <etatPartie>finPartie</etatPartie>
   <joueurActif>joueur1</joueurActif>
 </batailleNavale>
