@@ -339,12 +339,6 @@
         <case ligne="10" colonne="I" />
         <case ligne="10" colonne="J" />
       </croiseur>
-      <croiseur etat="coule" id="Cr2">
-        <case ligne="5" colonne="A" />
-        <case ligne="6" colonne="A" />
-        <case ligne="7" colonne="A" />
-        <case ligne="8" colonne="A" />
-      </croiseur>
       <contreTorpilleur etat="coule" id="CT1">
         <case ligne="3" colonne="J" />
         <case ligne="4" colonne="J" />
