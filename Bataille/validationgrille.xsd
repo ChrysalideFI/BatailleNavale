@@ -94,7 +94,7 @@
   <!-- Types de bateaux -->
   <xs:complexType name="porteAvions">
     <xs:sequence>
-      <xs:element name="case" type="caseType" minOccurs="5" maxOccurs="5" />
+      <xs:element name="caseBateau" type="caseType" minOccurs="5" maxOccurs="5" />
     </xs:sequence>
     <xs:attribute name="id" type="xs:string" />
     <xs:attribute name="etat" type="etatBateau" />
@@ -102,7 +102,7 @@
 
   <xs:complexType name="croiseur">
     <xs:sequence>
-      <xs:element name="case" type="caseType" minOccurs="4" maxOccurs="4" />
+      <xs:element name="caseBateau" type="caseType" minOccurs="4" maxOccurs="4" />
     </xs:sequence>
     <xs:attribute name="etat" type="etatBateau" />
     <xs:attribute name="id" type="xs:string" />
@@ -110,7 +110,7 @@
 
   <xs:complexType name="contreTorpilleur">
     <xs:sequence>
-      <xs:element name="case" type="caseType" minOccurs="3" maxOccurs="3" />
+      <xs:element name="caseBateau" type="caseType" minOccurs="3" maxOccurs="3" />
     </xs:sequence>
     <xs:attribute name="etat" type="etatBateau" />
     <xs:attribute name="id" type="xs:string" />
@@ -118,7 +118,7 @@
 
   <xs:complexType name="sousMarin">
     <xs:sequence>
-      <xs:element name="case" type="caseType" minOccurs="2" maxOccurs="2" />
+      <xs:element name="caseBateau" type="caseType" minOccurs="2" maxOccurs="2" />
     </xs:sequence>
     <xs:attribute name="etat" type="etatBateau" />
     <xs:attribute name="id" type="xs:string" />
