@@ -1155,6 +1155,120 @@
                 fill="red"
                 stroke="black"
                 stroke-width="1"/>
+      <svg:g transform="translate(125,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(425,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
    </svg:g>
    <svg:g transform="translate(50, 1400)">
       <svg:rect width="500"
@@ -2155,6 +2269,34 @@
                 fill="red"
                 stroke="black"
                 stroke-width="1"/>
+      <svg:rect x="2"
+                y="202"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="252"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="302"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
       <svg:rect x="452"
                 y="102"
                 width="46"
@@ -2274,4 +2416,118 @@
                 fill="red"
                 stroke="black"
                 stroke-width="1"/>
+      <svg:g transform="translate(175,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(425,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(425,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
    </svg:g>finPartie</svg:svg>
