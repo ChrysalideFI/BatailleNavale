@@ -2,18 +2,17 @@
 <svg:svg xmlns:svg="http://www.w3.org/2000/svg"
          xmlns:xs="http://www.w3.org/2001/XMLSchema"
          width="800"
-         height="1000">
+         height="3000">
    <svg:text x="400"
              y="40"
              text-anchor="middle"
              font-size="24"
              fill="black">
-                Bataille Navale - Grille de joueur2</svg:text>
-   <h2>joueur1</h2>
+                Bataille Navale - Grille de joueur1</svg:text>
    <svg:g transform="translate(50, 100)">
       <svg:rect width="500"
                 height="500"
-                fill="black"
+                fill="blue"
                 stroke="black"
                 stroke-width="2"/>
       <svg:line x1="0"
@@ -946,47 +945,335 @@
                 fill="#9999ff"
                 stroke="black"
                 stroke-width="1"/>
-      <li>
-            Tir en 4C - État : manque</li>
-      <li>
-            Tir en 5F - État : manque</li>
-      <li>
-            Tir en 5G - État : manque</li>
-      <li>
-            Tir en 6B - État : manque</li>
-      <li>
-            Tir en 6H - État : manque</li>
-      <li>
-            Tir en 6J - État : touche</li>
-      <li>
-            Tir en 7D - État : manque</li>
-      <li>
-            Tir en 7J - État : touche</li>
-      <li>
-            Tir en 8A - État : touche</li>
-      <li>
-            Tir en 8B - État : touche</li>
-      <li>
-            Tir en 8H - État : manque</li>
+      <svg:rect x="252"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="302"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="352"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="402"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="302"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="352"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="402"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="152"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="202"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="252"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="252"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="302"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="252"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="302"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="352"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="152"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="152"
+                y="52"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="152"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="52"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="152"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="252"
+                y="252"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="252"
+                y="302"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="52"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:g transform="translate(125,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,75)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(425,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
    </svg:g>
-   <h3>Flotte :</h3>
-   <ul>
-      <li>porteAvions - État : intact</li>
-      <li>croiseur - État : intact</li>
-      <li>croiseur - État : intact</li>
-      <li>contreTorpilleur - État : touche (Touché)</li>
-      <li>contreTorpilleur - État : intact</li>
-      <li>contreTorpilleur - État : intact</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : coule (Bateau coulé)</li>
-   </ul>
-   <h2>joueur2</h2>
-   <svg:g transform="translate(50, 100)">
+   <svg:g transform="translate(50, 1400)">
       <svg:rect width="500"
                 height="500"
-                fill="black"
+                fill="blue"
                 stroke="black"
                 stroke-width="2"/>
       <svg:line x1="0"
@@ -1919,58 +2206,328 @@
                 fill="#9999ff"
                 stroke="black"
                 stroke-width="1"/>
-      <li>
-            Tir en 1D - État : manque</li>
-      <li>
-            Tir en 1G - État : touche</li>
-      <li>
-            Tir en 3E - État : manque</li>
-      <li>
-            Tir en 3H - État : manque</li>
-      <li>
-            Tir en 4A - État : manque</li>
-      <li>
-            Tir en 5H - État : manque</li>
-      <li>
-            Tir en 6J - État : manque</li>
-      <li>
-            Tir en 8C - État : manque</li>
-      <li>
-            Tir en 9D - État : touche</li>
-      <li>
-            Tir en 9G - État : manque</li>
-      <li>
-            Tir en 10H - État : touche</li>
-   </svg:g>
-   <h3>Flotte :</h3>
-   <ul>
-      <li>porteAvions - État : touche (Touché)</li>
-      <li>croiseur - État : touche (Touché)</li>
-      <li>croiseur - État : intact</li>
-      <li>contreTorpilleur - État : intact</li>
-      <li>contreTorpilleur - État : intact</li>
-      <li>contreTorpilleur - État : touche (Touché)</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : intact</li>
-   </ul>
-   <h2>État de la Partie : pendantPartie</h2>
-   <p>La partie est en cours.</p>
-   <h3>Flotte :</h3>
-   <ul>
-      <li>porteAvions - État : intact</li>
-      <li>croiseur - État : intact</li>
-      <li>croiseur - État : intact</li>
-      <li>contreTorpilleur - État : touche (Touché)</li>
-      <li>contreTorpilleur - État : intact</li>
-      <li>contreTorpilleur - État : intact</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : intact</li>
-      <li>sousMarin - État : coule (Bateau coulé)</li>
-   </ul>
-   <svg:g transform="translate(50, 550)">
-      <svg:text x="0" y="0" fill="red" font-size="18">La flotte n'est pas complète</svg:text>
-   </svg:g>
-</svg:svg>
+      <svg:rect x="252"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="302"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="352"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="402"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="2"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="302"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="352"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="402"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="202"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="252"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="302"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="152"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="202"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="252"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="302"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="352"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="152"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="152"
+                y="402"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="152"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="52"
+                y="452"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="302"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="452"
+                y="352"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="252"
+                y="152"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="252"
+                y="202"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="2"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:rect x="52"
+                y="102"
+                width="46"
+                height="46"
+                fill="red"
+                stroke="black"
+                stroke-width="1"/>
+      <svg:g transform="translate(175,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(225,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(125,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,425)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(425,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,25)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(425,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,275)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(325,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(375,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(175,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,475)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,325)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(475,375)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,175)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(275,225)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(25,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+      <svg:g transform="translate(75,125)">
+         <svg:circle r="5" fill="pink"/>
+      </svg:g>
+   </svg:g>finPartie</svg:svg>

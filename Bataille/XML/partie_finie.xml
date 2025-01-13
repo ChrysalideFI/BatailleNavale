@@ -5,166 +5,166 @@
   <!-- Partie finie, avec victoire du joueur 1 -->
   <joueur1>
     <grille>
-      <case ligne="1" colonne="A" etat="bateau" />
-      <case ligne="1" colonne="B" etat="bateau" />
-      <case ligne="1" colonne="C" etat="eau" />
-      <case ligne="1" colonne="D" etat="bateau" />
-      <case ligne="1" colonne="E" etat="eau" />
-      <case ligne="1" colonne="F" etat="eau" />
-      <case ligne="1" colonne="G" etat="bateau" />
-      <case ligne="1" colonne="H" etat="bateau" />
-      <case ligne="1" colonne="I" etat="bateau" />
-      <case ligne="1" colonne="J" etat="bateau" />
+      <caseGrille ligne="1" colonne="A" etat="bateau" />
+      <caseGrille ligne="1" colonne="B" etat="bateau" />
+      <caseGrille ligne="1" colonne="C" etat="eau" />
+      <caseGrille ligne="1" colonne="D" etat="bateau" />
+      <caseGrille ligne="1" colonne="E" etat="eau" />
+      <caseGrille ligne="1" colonne="F" etat="eau" />
+      <caseGrille ligne="1" colonne="G" etat="bateau" />
+      <caseGrille ligne="1" colonne="H" etat="bateau" />
+      <caseGrille ligne="1" colonne="I" etat="bateau" />
+      <caseGrille ligne="1" colonne="J" etat="bateau" />
 
-      <case ligne="2" colonne="A" etat="eau" />
-      <case ligne="2" colonne="B" etat="eau" />
-      <case ligne="2" colonne="C" etat="eau" />
-      <case ligne="2" colonne="D" etat="bateau" />
-      <case ligne="2" colonne="E" etat="eau" />
-      <case ligne="2" colonne="F" etat="eau" />
-      <case ligne="2" colonne="G" etat="eau" />
-      <case ligne="2" colonne="H" etat="eau" />
-      <case ligne="2" colonne="I" etat="eau" />
-      <case ligne="2" colonne="J" etat="eau" />
+      <caseGrille ligne="2" colonne="A" etat="eau" />
+      <caseGrille ligne="2" colonne="B" etat="eau" />
+      <caseGrille ligne="2" colonne="C" etat="eau" />
+      <caseGrille ligne="2" colonne="D" etat="bateau" />
+      <caseGrille ligne="2" colonne="E" etat="eau" />
+      <caseGrille ligne="2" colonne="F" etat="eau" />
+      <caseGrille ligne="2" colonne="G" etat="eau" />
+      <caseGrille ligne="2" colonne="H" etat="eau" />
+      <caseGrille ligne="2" colonne="I" etat="eau" />
+      <caseGrille ligne="2" colonne="J" etat="eau" />
 
-      <case ligne="3" colonne="A" etat="bateau" />
-      <case ligne="3" colonne="B" etat="eau" />
-      <case ligne="3" colonne="C" etat="eau" />
-      <case ligne="3" colonne="D" etat="bateau" />
-      <case ligne="3" colonne="E" etat="eau" />
-      <case ligne="3" colonne="F" etat="bateau" />
-      <case ligne="3" colonne="G" etat="bateau" />
-      <case ligne="3" colonne="H" etat="bateau" />
-      <case ligne="3" colonne="I" etat="eau" />
-      <case ligne="3" colonne="J" etat="bateau" />
+      <caseGrille ligne="3" colonne="A" etat="bateau" />
+      <caseGrille ligne="3" colonne="B" etat="eau" />
+      <caseGrille ligne="3" colonne="C" etat="eau" />
+      <caseGrille ligne="3" colonne="D" etat="bateau" />
+      <caseGrille ligne="3" colonne="E" etat="eau" />
+      <caseGrille ligne="3" colonne="F" etat="bateau" />
+      <caseGrille ligne="3" colonne="G" etat="bateau" />
+      <caseGrille ligne="3" colonne="H" etat="bateau" />
+      <caseGrille ligne="3" colonne="I" etat="eau" />
+      <caseGrille ligne="3" colonne="J" etat="bateau" />
 
-      <case ligne="4" colonne="A" etat="bateau" />
-      <case ligne="4" colonne="B" etat="eau" />
-      <case ligne="4" colonne="C" etat="eau" />
-      <case ligne="4" colonne="D" etat="eau" />
-      <case ligne="4" colonne="E" etat="eau" />
-      <case ligne="4" colonne="F" etat="eau" />
-      <case ligne="4" colonne="G" etat="eau" />
-      <case ligne="4" colonne="H" etat="eau" />
-      <case ligne="4" colonne="I" etat="eau" />
-      <case ligne="4" colonne="J" etat="bateau" />
+      <caseGrille ligne="4" colonne="A" etat="bateau" />
+      <caseGrille ligne="4" colonne="B" etat="eau" />
+      <caseGrille ligne="4" colonne="C" etat="eau" />
+      <caseGrille ligne="4" colonne="D" etat="eau" />
+      <caseGrille ligne="4" colonne="E" etat="eau" />
+      <caseGrille ligne="4" colonne="F" etat="eau" />
+      <caseGrille ligne="4" colonne="G" etat="eau" />
+      <caseGrille ligne="4" colonne="H" etat="eau" />
+      <caseGrille ligne="4" colonne="I" etat="eau" />
+      <caseGrille ligne="4" colonne="J" etat="bateau" />
 
-      <case ligne="5" colonne="A" etat="bateau" />
-      <case ligne="5" colonne="B" etat="eau" />
-      <case ligne="5" colonne="C" etat="eau" />
-      <case ligne="5" colonne="D" etat="eau" />
-      <case ligne="5" colonne="E" etat="eau" />
-      <case ligne="5" colonne="F" etat="eau" />
-      <case ligne="5" colonne="G" etat="eau" />
-      <case ligne="5" colonne="H" etat="eau" />
-      <case ligne="5" colonne="I" etat="eau" />
-      <case ligne="5" colonne="J" etat="eau" />
+      <caseGrille ligne="5" colonne="A" etat="bateau" />
+      <caseGrille ligne="5" colonne="B" etat="eau" />
+      <caseGrille ligne="5" colonne="C" etat="eau" />
+      <caseGrille ligne="5" colonne="D" etat="eau" />
+      <caseGrille ligne="5" colonne="E" etat="eau" />
+      <caseGrille ligne="5" colonne="F" etat="eau" />
+      <caseGrille ligne="5" colonne="G" etat="eau" />
+      <caseGrille ligne="5" colonne="H" etat="eau" />
+      <caseGrille ligne="5" colonne="I" etat="eau" />
+      <caseGrille ligne="5" colonne="J" etat="eau" />
 
-      <case ligne="6" colonne="A" etat="bateau" />
-      <case ligne="6" colonne="B" etat="eau" />
-      <case ligne="6" colonne="C" etat="eau" />
-      <case ligne="6" colonne="D" etat="eau" />
-      <case ligne="6" colonne="E" etat="eau" />
-      <case ligne="6" colonne="F" etat="bateau" />
-      <case ligne="6" colonne="G" etat="eau" />
-      <case ligne="6" colonne="H" etat="eau" />
-      <case ligne="6" colonne="I" etat="eau" />
-      <case ligne="6" colonne="J" etat="bateau" />
+      <caseGrille ligne="6" colonne="A" etat="bateau" />
+      <caseGrille ligne="6" colonne="B" etat="eau" />
+      <caseGrille ligne="6" colonne="C" etat="eau" />
+      <caseGrille ligne="6" colonne="D" etat="eau" />
+      <caseGrille ligne="6" colonne="E" etat="eau" />
+      <caseGrille ligne="6" colonne="F" etat="bateau" />
+      <caseGrille ligne="6" colonne="G" etat="eau" />
+      <caseGrille ligne="6" colonne="H" etat="eau" />
+      <caseGrille ligne="6" colonne="I" etat="eau" />
+      <caseGrille ligne="6" colonne="J" etat="bateau" />
 
-      <case ligne="7" colonne="A" etat="eau" />
-      <case ligne="7" colonne="B" etat="eau" />
-      <case ligne="7" colonne="C" etat="eau" />
-      <case ligne="7" colonne="D" etat="eau" />
-      <case ligne="7" colonne="E" etat="eau" />
-      <case ligne="7" colonne="F" etat="bateau" />
-      <case ligne="7" colonne="G" etat="eau" />
-      <case ligne="7" colonne="H" etat="eau" />
-      <case ligne="7" colonne="I" etat="eau" />
-      <case ligne="7" colonne="J" etat="bateau" />
+      <caseGrille ligne="7" colonne="A" etat="eau" />
+      <caseGrille ligne="7" colonne="B" etat="eau" />
+      <caseGrille ligne="7" colonne="C" etat="eau" />
+      <caseGrille ligne="7" colonne="D" etat="eau" />
+      <caseGrille ligne="7" colonne="E" etat="eau" />
+      <caseGrille ligne="7" colonne="F" etat="bateau" />
+      <caseGrille ligne="7" colonne="G" etat="eau" />
+      <caseGrille ligne="7" colonne="H" etat="eau" />
+      <caseGrille ligne="7" colonne="I" etat="eau" />
+      <caseGrille ligne="7" colonne="J" etat="bateau" />
 
-      <case ligne="8" colonne="A" etat="bateau" />
-      <case ligne="8" colonne="B" etat="bateau" />
-      <case ligne="8" colonne="C" etat="eau" />
-      <case ligne="8" colonne="D" etat="eau" />
-      <case ligne="8" colonne="E" etat="eau" />
-      <case ligne="8" colonne="F" etat="eau" />
-      <case ligne="8" colonne="G" etat="eau" />
-      <case ligne="8" colonne="H" etat="eau" />
-      <case ligne="8" colonne="I" etat="eau" />
-      <case ligne="8" colonne="J" etat="bateau" />
+      <caseGrille ligne="8" colonne="A" etat="bateau" />
+      <caseGrille ligne="8" colonne="B" etat="bateau" />
+      <caseGrille ligne="8" colonne="C" etat="eau" />
+      <caseGrille ligne="8" colonne="D" etat="eau" />
+      <caseGrille ligne="8" colonne="E" etat="eau" />
+      <caseGrille ligne="8" colonne="F" etat="eau" />
+      <caseGrille ligne="8" colonne="G" etat="eau" />
+      <caseGrille ligne="8" colonne="H" etat="eau" />
+      <caseGrille ligne="8" colonne="I" etat="eau" />
+      <caseGrille ligne="8" colonne="J" etat="bateau" />
 
-      <case ligne="9" colonne="A" etat="eau" />
-      <case ligne="9" colonne="B" etat="eau" />
-      <case ligne="9" colonne="C" etat="eau" />
-      <case ligne="9" colonne="D" etat="eau" />
-      <case ligne="9" colonne="E" etat="eau" />
-      <case ligne="9" colonne="F" etat="eau" />
-      <case ligne="9" colonne="G" etat="eau" />
-      <case ligne="9" colonne="H" etat="eau" />
-      <case ligne="9" colonne="I" etat="eau" />
-      <case ligne="9" colonne="J" etat="eau" />
+      <caseGrille ligne="9" colonne="A" etat="eau" />
+      <caseGrille ligne="9" colonne="B" etat="eau" />
+      <caseGrille ligne="9" colonne="C" etat="eau" />
+      <caseGrille ligne="9" colonne="D" etat="eau" />
+      <caseGrille ligne="9" colonne="E" etat="eau" />
+      <caseGrille ligne="9" colonne="F" etat="eau" />
+      <caseGrille ligne="9" colonne="G" etat="eau" />
+      <caseGrille ligne="9" colonne="H" etat="eau" />
+      <caseGrille ligne="9" colonne="I" etat="eau" />
+      <caseGrille ligne="9" colonne="J" etat="eau" />
 
-      <case ligne="10" colonne="A" etat="eau" />
-      <case ligne="10" colonne="B" etat="eau" />
-      <case ligne="10" colonne="C" etat="eau" />
-      <case ligne="10" colonne="D" etat="eau" />
-      <case ligne="10" colonne="E" etat="eau" />
-      <case ligne="10" colonne="F" etat="bateau" />
-      <case ligne="10" colonne="G" etat="bateau" />
-      <case ligne="10" colonne="H" etat="bateau" />
-      <case ligne="10" colonne="I" etat="bateau" />
-      <case ligne="10" colonne="J" etat="bateau" />
+      <caseGrille ligne="10" colonne="A" etat="eau" />
+      <caseGrille ligne="10" colonne="B" etat="eau" />
+      <caseGrille ligne="10" colonne="C" etat="eau" />
+      <caseGrille ligne="10" colonne="D" etat="eau" />
+      <caseGrille ligne="10" colonne="E" etat="eau" />
+      <caseGrille ligne="10" colonne="F" etat="bateau" />
+      <caseGrille ligne="10" colonne="G" etat="bateau" />
+      <caseGrille ligne="10" colonne="H" etat="bateau" />
+      <caseGrille ligne="10" colonne="I" etat="bateau" />
+      <caseGrille ligne="10" colonne="J" etat="bateau" />
     </grille>
     <flotte>
       <porteAvions etat="intact" id="PA">
-        <case ligne="10" colonne="F" />
-        <case ligne="10" colonne="G" />
-        <case ligne="10" colonne="H" />
-        <case ligne="10" colonne="I" />
-        <case ligne="10" colonne="J" />
+        <caseBateau ligne="10" colonne="F" />
+        <caseBateau ligne="10" colonne="G" />
+        <caseBateau ligne="10" colonne="H" />
+        <caseBateau ligne="10" colonne="I" />
+        <caseBateau ligne="10" colonne="J" />
       </porteAvions>
       <croiseur etat="intact" id="Cr1">
-        <case ligne="1" colonne="G" />
-        <case ligne="1" colonne="H" />
-        <case ligne="1" colonne="I" />
-        <case ligne="1" colonne="J" />
+        <caseBateau ligne="1" colonne="G" />
+        <caseBateau ligne="1" colonne="H" />
+        <caseBateau ligne="1" colonne="I" />
+        <caseBateau ligne="1" colonne="J" />
       </croiseur>
       <croiseur etat="intact" id="Cr2">
-        <case ligne="3" colonne="A" />
-        <case ligne="4" colonne="A" />
-        <case ligne="5" colonne="A" />
-        <case ligne="6" colonne="A" />
+        <caseBateau ligne="3" colonne="A" />
+        <caseBateau ligne="4" colonne="A" />
+        <caseBateau ligne="5" colonne="A" />
+        <caseBateau ligne="6" colonne="A" />
       </croiseur>
       <contreTorpilleur etat="touche" id="CT1">
-        <case ligne="6" colonne="J" />
-        <case ligne="7" colonne="J" />
-        <case ligne="8" colonne="J" />
+        <caseBateau ligne="6" colonne="J" />
+        <caseBateau ligne="7" colonne="J" />
+        <caseBateau ligne="8" colonne="J" />
       </contreTorpilleur>
       <contreTorpilleur etat="intact" id="CT2">
-        <case ligne="3" colonne="F" />
-        <case ligne="3" colonne="G" />
-        <case ligne="3" colonne="H" />
+        <caseBateau ligne="3" colonne="F" />
+        <caseBateau ligne="3" colonne="G" />
+        <caseBateau ligne="3" colonne="H" />
       </contreTorpilleur>
       <contreTorpilleur etat="intact" id="CT3">
-        <case ligne="1" colonne="D" />
-        <case ligne="2" colonne="D" />
-        <case ligne="3" colonne="D" />
+        <caseBateau ligne="1" colonne="D" />
+        <caseBateau ligne="2" colonne="D" />
+        <caseBateau ligne="3" colonne="D" />
       </contreTorpilleur>
       <sousMarin etat="intact" id="SM1">
-        <case ligne="1" colonne="A" />
-        <case ligne="1" colonne="B" />
+        <caseBateau ligne="1" colonne="A" />
+        <caseBateau ligne="1" colonne="B" />
       </sousMarin>
       <sousMarin etat="intact" id="SM2">
-        <case ligne="3" colonne="J" />
-        <case ligne="4" colonne="J" />
+        <caseBateau ligne="3" colonne="J" />
+        <caseBateau ligne="4" colonne="J" />
       </sousMarin>
       <sousMarin etat="intact" id="SM3">
-        <case ligne="6" colonne="F" />
-        <case ligne="7" colonne="F" />
+        <caseBateau ligne="6" colonne="F" />
+        <caseBateau ligne="7" colonne="F" />
       </sousMarin>
       <sousMarin etat="coule" id="SM4">
-        <case ligne="8" colonne="A" />
-        <case ligne="8" colonne="B" />
+        <caseBateau ligne="8" colonne="A" />
+        <caseBateau ligne="8" colonne="B" />
       </sousMarin>
     </flotte>
 
@@ -215,166 +215,166 @@
 
   <joueur2>
     <grille>
-      <case ligne="1" colonne="A" etat="eau" />
-      <case ligne="1" colonne="B" etat="eau" />
-      <case ligne="1" colonne="C" etat="eau" />
-      <case ligne="1" colonne="D" etat="eau" />
-      <case ligne="1" colonne="E" etat="eau" />
-      <case ligne="1" colonne="F" etat="bateau" />
-      <case ligne="1" colonne="G" etat="bateau" />
-      <case ligne="1" colonne="H" etat="bateau" />
-      <case ligne="1" colonne="I" etat="bateau" />
-      <case ligne="1" colonne="J" etat="bateau" />
+      <caseGrille ligne="1" colonne="A" etat="eau" />
+      <caseGrille ligne="1" colonne="B" etat="eau" />
+      <caseGrille ligne="1" colonne="C" etat="eau" />
+      <caseGrille ligne="1" colonne="D" etat="eau" />
+      <caseGrille ligne="1" colonne="E" etat="eau" />
+      <caseGrille ligne="1" colonne="F" etat="bateau" />
+      <caseGrille ligne="1" colonne="G" etat="bateau" />
+      <caseGrille ligne="1" colonne="H" etat="bateau" />
+      <caseGrille ligne="1" colonne="I" etat="bateau" />
+      <caseGrille ligne="1" colonne="J" etat="bateau" />
 
-      <case ligne="2" colonne="A" etat="eau" />
-      <case ligne="2" colonne="B" etat="eau" />
-      <case ligne="2" colonne="C" etat="eau" />
-      <case ligne="2" colonne="D" etat="eau" />
-      <case ligne="2" colonne="E" etat="eau" />
-      <case ligne="2" colonne="F" etat="eau" />
-      <case ligne="2" colonne="G" etat="eau" />
-      <case ligne="2" colonne="H" etat="eau" />
-      <case ligne="2" colonne="I" etat="eau" />
-      <case ligne="2" colonne="J" etat="eau" />
+      <caseGrille ligne="2" colonne="A" etat="eau" />
+      <caseGrille ligne="2" colonne="B" etat="eau" />
+      <caseGrille ligne="2" colonne="C" etat="eau" />
+      <caseGrille ligne="2" colonne="D" etat="eau" />
+      <caseGrille ligne="2" colonne="E" etat="eau" />
+      <caseGrille ligne="2" colonne="F" etat="eau" />
+      <caseGrille ligne="2" colonne="G" etat="eau" />
+      <caseGrille ligne="2" colonne="H" etat="eau" />
+      <caseGrille ligne="2" colonne="I" etat="eau" />
+      <caseGrille ligne="2" colonne="J" etat="eau" />
 
-      <case ligne="3" colonne="A" etat="bateau" />
-      <case ligne="3" colonne="B" etat="bateau" />
-      <case ligne="3" colonne="C" etat="eau" />
-      <case ligne="3" colonne="D" etat="eau" />
-      <case ligne="3" colonne="E" etat="eau" />
-      <case ligne="3" colonne="F" etat="eau" />
-      <case ligne="3" colonne="G" etat="eau" />
-      <case ligne="3" colonne="H" etat="eau" />
-      <case ligne="3" colonne="I" etat="eau" />
-      <case ligne="3" colonne="J" etat="bateau" />
+      <caseGrille ligne="3" colonne="A" etat="bateau" />
+      <caseGrille ligne="3" colonne="B" etat="bateau" />
+      <caseGrille ligne="3" colonne="C" etat="eau" />
+      <caseGrille ligne="3" colonne="D" etat="eau" />
+      <caseGrille ligne="3" colonne="E" etat="eau" />
+      <caseGrille ligne="3" colonne="F" etat="eau" />
+      <caseGrille ligne="3" colonne="G" etat="eau" />
+      <caseGrille ligne="3" colonne="H" etat="eau" />
+      <caseGrille ligne="3" colonne="I" etat="eau" />
+      <caseGrille ligne="3" colonne="J" etat="bateau" />
 
-      <case ligne="4" colonne="A" etat="eau" />
-      <case ligne="4" colonne="B" etat="eau" />
-      <case ligne="4" colonne="C" etat="eau" />
-      <case ligne="4" colonne="D" etat="eau" />
-      <case ligne="4" colonne="E" etat="eau" />
-      <case ligne="4" colonne="F" etat="bateau" />
-      <case ligne="4" colonne="G" etat="eau" />
-      <case ligne="4" colonne="H" etat="eau" />
-      <case ligne="4" colonne="I" etat="eau" />
-      <case ligne="4" colonne="J" etat="bateau" />
+      <caseGrille ligne="4" colonne="A" etat="eau" />
+      <caseGrille ligne="4" colonne="B" etat="eau" />
+      <caseGrille ligne="4" colonne="C" etat="eau" />
+      <caseGrille ligne="4" colonne="D" etat="eau" />
+      <caseGrille ligne="4" colonne="E" etat="eau" />
+      <caseGrille ligne="4" colonne="F" etat="bateau" />
+      <caseGrille ligne="4" colonne="G" etat="eau" />
+      <caseGrille ligne="4" colonne="H" etat="eau" />
+      <caseGrille ligne="4" colonne="I" etat="eau" />
+      <caseGrille ligne="4" colonne="J" etat="bateau" />
 
-      <case ligne="5" colonne="A" etat="bateau" />
-      <case ligne="5" colonne="B" etat="eau" />
-      <case ligne="5" colonne="C" etat="eau" />
-      <case ligne="5" colonne="D" etat="eau" />
-      <case ligne="5" colonne="E" etat="eau" />
-      <case ligne="5" colonne="F" etat="bateau" />
-      <case ligne="5" colonne="G" etat="eau" />
-      <case ligne="5" colonne="H" etat="eau" />
-      <case ligne="5" colonne="I" etat="eau" />
-      <case ligne="5" colonne="J" etat="bateau" />
+      <caseGrille ligne="5" colonne="A" etat="bateau" />
+      <caseGrille ligne="5" colonne="B" etat="eau" />
+      <caseGrille ligne="5" colonne="C" etat="eau" />
+      <caseGrille ligne="5" colonne="D" etat="eau" />
+      <caseGrille ligne="5" colonne="E" etat="eau" />
+      <caseGrille ligne="5" colonne="F" etat="bateau" />
+      <caseGrille ligne="5" colonne="G" etat="eau" />
+      <caseGrille ligne="5" colonne="H" etat="eau" />
+      <caseGrille ligne="5" colonne="I" etat="eau" />
+      <caseGrille ligne="5" colonne="J" etat="bateau" />
 
-      <case ligne="6" colonne="A" etat="bateau" />
-      <case ligne="6" colonne="B" etat="eau" />
-      <case ligne="6" colonne="C" etat="eau" />
-      <case ligne="6" colonne="D" etat="eau" />
-      <case ligne="6" colonne="E" etat="eau" />
-      <case ligne="6" colonne="F" etat="eau" />
-      <case ligne="6" colonne="G" etat="eau" />
-      <case ligne="6" colonne="H" etat="eau" />
-      <case ligne="6" colonne="I" etat="eau" />
-      <case ligne="6" colonne="J" etat="eau" />
+      <caseGrille ligne="6" colonne="A" etat="bateau" />
+      <caseGrille ligne="6" colonne="B" etat="eau" />
+      <caseGrille ligne="6" colonne="C" etat="eau" />
+      <caseGrille ligne="6" colonne="D" etat="eau" />
+      <caseGrille ligne="6" colonne="E" etat="eau" />
+      <caseGrille ligne="6" colonne="F" etat="eau" />
+      <caseGrille ligne="6" colonne="G" etat="eau" />
+      <caseGrille ligne="6" colonne="H" etat="eau" />
+      <caseGrille ligne="6" colonne="I" etat="eau" />
+      <caseGrille ligne="6" colonne="J" etat="eau" />
 
-      <case ligne="7" colonne="A" etat="bateau" />
-      <case ligne="7" colonne="B" etat="eau" />
-      <case ligne="7" colonne="C" etat="eau" />
-      <case ligne="7" colonne="D" etat="eau" />
-      <case ligne="7" colonne="E" etat="eau" />
-      <case ligne="7" colonne="F" etat="eau" />
-      <case ligne="7" colonne="G" etat="eau" />
-      <case ligne="7" colonne="H" etat="eau" />
-      <case ligne="7" colonne="I" etat="eau" />
-      <case ligne="7" colonne="J" etat="bateau" />
+      <caseGrille ligne="7" colonne="A" etat="bateau" />
+      <caseGrille ligne="7" colonne="B" etat="eau" />
+      <caseGrille ligne="7" colonne="C" etat="eau" />
+      <caseGrille ligne="7" colonne="D" etat="eau" />
+      <caseGrille ligne="7" colonne="E" etat="eau" />
+      <caseGrille ligne="7" colonne="F" etat="eau" />
+      <caseGrille ligne="7" colonne="G" etat="eau" />
+      <caseGrille ligne="7" colonne="H" etat="eau" />
+      <caseGrille ligne="7" colonne="I" etat="eau" />
+      <caseGrille ligne="7" colonne="J" etat="bateau" />
 
-      <case ligne="8" colonne="A" etat="bateau" />
-      <case ligne="8" colonne="B" etat="eau" />
-      <case ligne="8" colonne="C" etat="eau" />
-      <case ligne="8" colonne="D" etat="bateau" />
-      <case ligne="8" colonne="E" etat="eau" />
-      <case ligne="8" colonne="F" etat="bateau" />
-      <case ligne="8" colonne="G" etat="bateau" />
-      <case ligne="8" colonne="H" etat="bateau" />
-      <case ligne="8" colonne="I" etat="eau" />
-      <case ligne="8" colonne="J" etat="bateau" />
+      <caseGrille ligne="8" colonne="A" etat="bateau" />
+      <caseGrille ligne="8" colonne="B" etat="eau" />
+      <caseGrille ligne="8" colonne="C" etat="eau" />
+      <caseGrille ligne="8" colonne="D" etat="bateau" />
+      <caseGrille ligne="8" colonne="E" etat="eau" />
+      <caseGrille ligne="8" colonne="F" etat="bateau" />
+      <caseGrille ligne="8" colonne="G" etat="bateau" />
+      <caseGrille ligne="8" colonne="H" etat="bateau" />
+      <caseGrille ligne="8" colonne="I" etat="eau" />
+      <caseGrille ligne="8" colonne="J" etat="bateau" />
 
-      <case ligne="9" colonne="A" etat="eau" />
-      <case ligne="9" colonne="B" etat="eau" />
-      <case ligne="9" colonne="C" etat="eau" />
-      <case ligne="9" colonne="D" etat="bateau" />
-      <case ligne="9" colonne="E" etat="eau" />
-      <case ligne="9" colonne="F" etat="eau" />
-      <case ligne="9" colonne="G" etat="eau" />
-      <case ligne="9" colonne="H" etat="eau" />
-      <case ligne="9" colonne="I" etat="eau" />
-      <case ligne="9" colonne="J" etat="eau" />
+      <caseGrille ligne="9" colonne="A" etat="eau" />
+      <caseGrille ligne="9" colonne="B" etat="eau" />
+      <caseGrille ligne="9" colonne="C" etat="eau" />
+      <caseGrille ligne="9" colonne="D" etat="bateau" />
+      <caseGrille ligne="9" colonne="E" etat="eau" />
+      <caseGrille ligne="9" colonne="F" etat="eau" />
+      <caseGrille ligne="9" colonne="G" etat="eau" />
+      <caseGrille ligne="9" colonne="H" etat="eau" />
+      <caseGrille ligne="9" colonne="I" etat="eau" />
+      <caseGrille ligne="9" colonne="J" etat="eau" />
 
-      <case ligne="10" colonne="A" etat="bateau" />
-      <case ligne="10" colonne="B" etat="bateau" />
-      <case ligne="10" colonne="C" etat="eau" />
-      <case ligne="10" colonne="D" etat="bateau" />
-      <case ligne="10" colonne="E" etat="eau" />
-      <case ligne="10" colonne="F" etat="eau" />
-      <case ligne="10" colonne="G" etat="bateau" />
-      <case ligne="10" colonne="H" etat="bateau" />
-      <case ligne="10" colonne="I" etat="bateau" />
-      <case ligne="10" colonne="J" etat="bateau" />
+      <caseGrille ligne="10" colonne="A" etat="bateau" />
+      <caseGrille ligne="10" colonne="B" etat="bateau" />
+      <caseGrille ligne="10" colonne="C" etat="eau" />
+      <caseGrille ligne="10" colonne="D" etat="bateau" />
+      <caseGrille ligne="10" colonne="E" etat="eau" />
+      <caseGrille ligne="10" colonne="F" etat="eau" />
+      <caseGrille ligne="10" colonne="G" etat="bateau" />
+      <caseGrille ligne="10" colonne="H" etat="bateau" />
+      <caseGrille ligne="10" colonne="I" etat="bateau" />
+      <caseGrille ligne="10" colonne="J" etat="bateau" />
     </grille>
     <flotte>
       <porteAvions etat="coule" id="PA">
-        <case ligne="1" colonne="F" />
-        <case ligne="1" colonne="G" />
-        <case ligne="1" colonne="H" />
-        <case ligne="1" colonne="I" />
-        <case ligne="1" colonne="J" />
+        <caseBateau ligne="1" colonne="F" />
+        <caseBateau ligne="1" colonne="G" />
+        <caseBateau ligne="1" colonne="H" />
+        <caseBateau ligne="1" colonne="I" />
+        <caseBateau ligne="1" colonne="J" />
       </porteAvions>
       <croiseur etat="coule" id="Cr1">
-        <case ligne="10" colonne="G" />
-        <case ligne="10" colonne="H" />
-        <case ligne="10" colonne="I" />
-        <case ligne="10" colonne="J" />
+        <caseBateau ligne="10" colonne="G" />
+        <caseBateau ligne="10" colonne="H" />
+        <caseBateau ligne="10" colonne="I" />
+        <caseBateau ligne="10" colonne="J" />
       </croiseur>
       <croiseur etat="coule" id="Cr2">
-        <case ligne="5" colonne="A" />
-        <case ligne="6" colonne="A" />
-        <case ligne="7" colonne="A" />
-        <case ligne="8" colonne="A" />
+        <caseBateau ligne="5" colonne="A" />
+        <caseBateau ligne="6" colonne="A" />
+        <caseBateau ligne="7" colonne="A" />
+        <caseBateau ligne="8" colonne="A" />
       </croiseur>
       <contreTorpilleur etat="coule" id="CT1">
-        <case ligne="3" colonne="J" />
-        <case ligne="4" colonne="J" />
-        <case ligne="5" colonne="J" />
+        <caseBateau ligne="3" colonne="J" />
+        <caseBateau ligne="4" colonne="J" />
+        <caseBateau ligne="5" colonne="J" />
       </contreTorpilleur>
       <contreTorpilleur etat="coule" id="CT2">
-        <case ligne="8" colonne="F" />
-        <case ligne="8" colonne="G" />
-        <case ligne="8" colonne="H" />
+        <caseBateau ligne="8" colonne="F" />
+        <caseBateau ligne="8" colonne="G" />
+        <caseBateau ligne="8" colonne="H" />
       </contreTorpilleur>
       <contreTorpilleur etat="coule" id="CT3">
-        <case ligne="8" colonne="D" />
-        <case ligne="9" colonne="D" />
-        <case ligne="10" colonne="D" />
+        <caseBateau ligne="8" colonne="D" />
+        <caseBateau ligne="9" colonne="D" />
+        <caseBateau ligne="10" colonne="D" />
       </contreTorpilleur>
       <sousMarin etat="coule" id="SM1">
-        <case ligne="10" colonne="A" />
-        <case ligne="10" colonne="B" />
+        <caseBateau ligne="10" colonne="A" />
+        <caseBateau ligne="10" colonne="B" />
       </sousMarin>
       <sousMarin etat="coule" id="SM2">
-        <case ligne="7" colonne="J" />
-        <case ligne="8" colonne="J" />
+        <caseBateau ligne="7" colonne="J" />
+        <caseBateau ligne="8" colonne="J" />
       </sousMarin>
       <sousMarin etat="coule" id="SM3">
-        <case ligne="4" colonne="F" />
-        <case ligne="5" colonne="F" />
+        <caseBateau ligne="4" colonne="F" />
+        <caseBateau ligne="5" colonne="F" />
       </sousMarin>
       <sousMarin etat="coule" id="SM4">
-        <case ligne="3" colonne="A" />
-        <case ligne="3" colonne="B" />
+        <caseBateau ligne="3" colonne="A" />
+        <caseBateau ligne="3" colonne="B" />
       </sousMarin>
     </flotte>
     <tirsReçus>
